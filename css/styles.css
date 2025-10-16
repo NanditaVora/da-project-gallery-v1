@@ -1,0 +1,575 @@
+/* styles.css
+   Custom styling and theme variables. Keep variables at top for easy extension.
+*/
+
+/* Base font and defaults */
+:root {
+    --bg: #ffffff;
+    --text: #0b2238;
+    --muted: #6c757d;
+    --card-bg: #ffffff;
+    --accent: #0E3997; /* NIT Blue */
+    --accent-contrast: #ffffff;
+    --highlight: #FFCB05; /* NIT Yellow */
+    --banner-gradient: linear-gradient(90deg, rgba(13, 110, 253, 0.12), rgba(13, 110, 253, 0.06));
+    --logo-bg: rgba(14, 57, 151, 0.12); /* Using NIT Blue with transparency */
+    --card-hover: rgba(14, 57, 151, 0.04); /* Using NIT Blue with transparency */
+    --rtb-bg: #f8f9fa;
+}
+
+/* Theme overrides (examples) */
+[data-theme="DA"] {
+    --accent: #0E3997; /* NIT Blue */
+    --banner-gradient: linear-gradient(90deg, rgba(14, 57, 151, 0.12), rgba(14, 57, 151, 0.06));
+    --logo-bg: rgba(14, 57, 151, 0.12);
+}
+
+[data-theme="SE"] {
+    --accent: #6610f2;
+    --banner-gradient: linear-gradient(90deg, rgba(102, 16, 242, 0.12), rgba(102, 16, 242, 0.06));
+    --logo-bg: rgba(102, 16, 242, 0.12);
+}
+
+[data-theme="DM"] {
+    --accent: #d63384;
+    --banner-gradient: linear-gradient(90deg, rgba(214, 51, 132, 0.10), rgba(214, 51, 132, 0.05));
+    --logo-bg: rgba(214, 51, 132, 0.10);
+}
+
+[data-theme="CY"] {
+    --accent: #198754;
+    --banner-gradient: linear-gradient(90deg, rgba(25, 135, 84, 0.10), rgba(25, 135, 84, 0.05));
+    --logo-bg: rgba(25, 135, 84, 0.10);
+}
+
+[data-theme="CD"] {
+    --accent: #fd7e14;
+    --banner-gradient: linear-gradient(90deg, rgba(253, 126, 20, 0.10), rgba(253, 126, 20, 0.05));
+    --logo-bg: rgba(253, 126, 20, 0.10);
+}
+
+[data-theme="Banking"] {
+    --accent: #0a58ca;
+    --banner-gradient: linear-gradient(90deg, rgba(10, 88, 202, 0.12), rgba(10, 88, 202, 0.06));
+    --logo-bg: rgba(10, 88, 202, 0.12);
+}
+
+/* Basic body */
+body {
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Program header */
+.program-header {
+    background: #FFFFFF !important; /* White background with !important to override */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.5rem 0; /* Reduce padding to decrease height */
+    position: relative; /* Needed for absolute positioned logo */
+}
+
+/* Logo / Badge */
+.program-logo {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 2px 6px rgba(13, 110, 253, 0.06);
+    background-color: #FFCB05; /* Accent Yellow background */
+    padding: 8px; /* Add padding for better visual effect */
+    padding-bottom: 2px;
+}
+
+/* Header content adjustment */
+.d-flex.align-items-center {
+    padding-left: 90px; /* Make space for logo */
+}
+
+/* Program name styling */
+#programName {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI";
+    font-weight: 700;
+    color: #0E3997; /* Primary Blue */
+    font-size: 2rem; /* Large, bold font */
+    margin-bottom: 0.5rem;
+}
+
+#programName h2 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Program summary styling */
+#programSummary {
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI";
+    font-weight: 400;
+    color: #0E3997; /* Primary Blue */
+    font-size: 1.1rem;
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+
+/* Logo styling merged above */
+
+/* Accent color for highlights */
+.highlight-yellow {
+    color: #FFCB05; /* Accent Yellow */
+    /* background-color:  #0E3997; */
+}
+
+/* RTB Section */
+.rtb-section {
+    background-color: #f8f9fa;
+    border-top: 4px solid #0E3997;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.rtb-section h2 {
+    color: #0E3997;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.rtb-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #FFCB05;
+}
+
+.rtb-chiclet {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-left: 5px solid #0E3997;
+}
+
+/* Display 4 chiclets in one row */
+#rtbChiclets .col-md-6.col-lg-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+    #rtbChiclets .col-md-6.col-lg-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    #rtbChiclets .col-md-6.col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.rtb-chiclet:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-left-color: #FFCB05;
+}
+
+.rtb-title {
+    color: #0E3997;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.rtb-content {
+    color: #495057;
+    font-size: 0.95rem;
+    padding-left: 0.5rem;
+}
+
+.rtb-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.rtb-content li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0.3rem;
+    text-align: left;
+}
+
+.rtb-content li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #FFCB05;
+    font-weight: bold;
+}
+
+/* Internal note styling */
+#internalNote {
+    color: white; /* White text for contrast */
+    background-color: #0E3997; /* NIT blue background */
+    padding: 0.2rem 0.5rem; /* Add padding for better appearance */
+    font-size: 0.8rem; /* Slightly smaller font size */
+    display: block; /* Change to block to allow margin auto */
+    border-radius: 4px; /* Add subtle rounded corners */
+    text-align: center; /* Center the text */
+    width: fit-content; /* Make it only as wide as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Logo positioning */
+.me-3 {
+    margin-right: 1rem !important; /* Right margin for logo */
+}
+
+/* Header content container */
+.d-flex {
+    justify-content: flex-start; /* Align items to the start */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #programName {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #programSummary {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .program-logo {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 0.5rem;
+        padding: 6px; /* Adjust padding for smaller logo */
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .me-3 {
+        margin-right: 0 !important;
+        margin-bottom: 1rem;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+}
+
+/* Filters */
+#trackFilters .btn {
+    min-width: 64px;
+    white-space: nowrap;
+}
+
+/* RTB cards styling */
+.rtb-card {
+    background: var(--rtb-bg);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.rtb-card:hover,
+.rtb-card:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(2, 6, 23, 0.06);
+}
+
+/* Project Card */
+.project-card {
+    border: 1px solid rgba(14, 57, 151, 0.15);
+    border-radius: 8px;
+    transition: transform .15s ease, box-shadow .15s ease, background-color .12s ease;
+    background: var(--card-bg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(14, 57, 151, 0.1);
+}
+
+.project-card:focus-within,
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(14, 57, 151, 0.15);
+    background: var(--card-hover);
+}
+
+/* Card content layout */
+.card-body .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.tech-pill {
+    font-size: .75rem;
+    padding: .25rem .5rem;
+    border-radius: 999px;
+    background: rgba(14, 57, 151, 0.08);
+    color: var(--accent);
+    border: 1px solid rgba(14, 57, 151, 0.15);
+}
+
+/* Header accent strip */
+.card-header-accent {
+    height: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: var(--accent);
+}
+
+/* Small meta */
+.card-meta {
+    font-size: .78rem;
+    color: var(--muted);
+}
+
+/* "Open details" link */
+.card-actions {
+    margin-top: auto;
+}
+
+/* Responsive grid tweaks */
+#projectGrid {
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+
+#projectGrid .col-md-3, #projectGrid .col-lg-2 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width:1200px) {
+    #projectGrid .col-lg-4 {
+        /* keep 3 per row by default on large screens */
+    }
+}
+
+/* No-results */
+.visually-hidden {
+    display: none !important;
+}
+
+#noResults.show {
+    display: block !important;
+}
+
+/* Focus outline - high contrast for keyboard users */
+.btn:focus,
+.project-card:focus-within {
+    outline: 3px dashed color-mix(in srgb, var(--accent) 30%, transparent);
+    outline-offset: 3px;
+}
+
+/* Small utility: truncate title for consistent cards */
+.title-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+/* === Project Gallery Themed Background === */
+.project-gallery {
+    position: relative;
+    z-index: 0;
+    transition: background 0.6s ease;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.project-gallery h2 {
+    color: #0E3997;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.project-gallery h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #FFCB05;
+}
+
+/* Fixed program header */
+#programHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+/* Add padding to main content to account for fixed header */
+#mainContent {
+    padding-top: 11rem; /* Adjust based on header height */
+}
+
+.project-gallery::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: #f8f9fa; /* Same as RTB section */
+    transition: background 0.6s ease;
+    border-radius: 0.5rem;
+}
+
+/* Theme-based gallery backgrounds */
+.theme-DA .project-gallery::before,
+.theme-SE .project-gallery::before,
+.theme-DM .project-gallery::before {
+    background-color: #f8f9fa; /* Same as RTB section */
+}
+
+.theme-CY .project-gallery::before {
+    background-color: #f8f9fa; /* Same as RTB section */
+}
+
+.theme-CD .project-gallery::before {
+    background-color: #f8f9fa; /* Same as RTB section */
+}
+
+.theme-Banking .project-gallery::before {
+    background: linear-gradient(180deg, rgba(0, 123, 255, 0.15) 0%, rgba(255, 255, 255, 1) 90%);
+}
+
+/* Internal note band styling */
+header .internal-note {
+    background-color: #0d6efd; /* Primary color */
+    color: #FFCB05 !important; /* Accent Yellow with !important */
+    text-align: center;
+    padding: 0.25rem 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Capstone project heading style */
+.capstone-header {
+    color: #e67e22; /* Orange color, change as needed */
+    font-weight: 700;
+}
+
+/* New Project Card Styles based on design */
+.project-card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #ffffff;
+    color: #0E3997;
+}
+
+/* Capstone project card styling */
+.project-card.capstone {
+    border: 2px solid #e67e22;
+    box-shadow: 0 4px 12px rgba(230, 126, 34, 0.15);
+    background-color: rgba(34, 99, 230, 0.1);
+
+}
+
+.project-card.capstone .project-badge {
+    background-color:#0E3997 !important;
+    color: #FFCB05 !important;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+/* Optional top image */
+.project-img {
+    margin: auto;
+    width: 90%;
+    object-fit: cover;
+    height: 250px;
+    /* background-color: transparent; */
+}
+
+/* Badge/Track */
+.project-badge {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    padding: 6px 10px;
+    font-weight: 500;
+}
+
+/* Title */
+.project-title {
+    font-size: 1.1rem;
+    margin: auto;
+    font-weight: 600;
+}
+
+/* Brief description */
+.project-brief {
+    font-size: 1rem;
+    color: #0E3997 !important;
+    margin:auto;
+    line-height: 1.4;
+}
+
+/* Tech pills */
+.tech-pill {
+    background: rgba(0,123,255,0.1);
+    color: #0E3997;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin: auto;
+}
+
+/* Action button */
+.card-actions .btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+
+
+
