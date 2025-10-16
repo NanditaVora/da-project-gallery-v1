@@ -65,7 +65,7 @@ body {
 
 /* Program header */
 .program-header {
-    background: #FFFFFF !important; /* White background with !important to override */
+    background: #0E3997 !important; /* White background with !important to override */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -79,8 +79,8 @@ body {
     position: absolute;
     top: 0.5rem;
     left: 1rem;
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
     border-radius: 8px;
     object-fit: contain;
     box-shadow: 0 2px 6px rgba(13, 110, 253, 0.06);
@@ -101,12 +101,14 @@ body {
     color: #0E3997; /* Primary Blue */
     font-size: 2rem; /* Large, bold font */
     margin-bottom: 0.5rem;
+    color: #FFFFFF !important; /* White text with !important to override */
 }
 
 #programName h2 {
     margin: 0;
     font-size: inherit;
     font-weight: inherit;
+    color: #FFFFFF !important; /* White text with !important to override */
 }
 
 /* Program summary styling */
@@ -114,6 +116,7 @@ body {
     font-family: "Roboto", system-ui, -apple-system, "Segoe UI";
     font-weight: 400;
     color: #0E3997; /* Primary Blue */
+    color: #FFFFFF !important; /* White text with !important to override */
     font-size: 1.1rem;
     margin-bottom: 0; /* Remove bottom margin */
 }
@@ -231,8 +234,8 @@ body {
 
 /* Internal note styling */
 #internalNote {
-    color: white; /* White text for contrast */
-    background-color: #0E3997; /* NIT blue background */
+    color: #0E3997; /* White text for contrast */
+    background-color: #FFFFFF; /* NIT blue background */
     padding: 0.2rem 0.5rem; /* Add padding for better appearance */
     font-size: 0.8rem; /* Slightly smaller font size */
     display: block; /* Change to block to allow margin auto */
@@ -476,8 +479,8 @@ body {
 
 /* Internal note band styling */
 header .internal-note {
-    background-color: #0d6efd; /* Primary color */
-    color: #FFCB05 !important; /* Accent Yellow with !important */
+    /*background-color: #0d6efd;  Primary color */
+    /*color: #FFCB05 !important;  Accent Yellow with !important */
     text-align: center;
     padding: 0.25rem 0;
     font-size: 0.8rem;
