@@ -46,7 +46,7 @@ async function loadRTBChiclets() {
         if (data && data.length > 0 && data[0].rtb_content) {
             data[0].rtb_content.forEach(rtb => {
                 const col = document.createElement('div');
-                col.className = 'col-md-6 col-lg-4 mb-4';
+                col.className = 'col-md-6 col-lg-4 ';
 
                 const chiclet = document.createElement('div');
                 chiclet.className = 'rtb-chiclet';
