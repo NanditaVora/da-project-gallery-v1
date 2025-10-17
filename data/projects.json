@@ -1,60 +1,60 @@
 [
   {
     "program_track": "## Data Analytics Program with Generative AI",
-    "program_brief": "##### Designed based on <span class='highlight-yellow'>65+ job descriptions</span> and <span class='highlight-yellow'>400+ interview questions</span>.",
+    "program_brief": "Designed based on <span class='highlight-yellow'>65+ job descriptions</span> and <span class='highlight-yellow'>400+ interview questions</span>.",
     "rtb_content": [
       {
-        "rtb_title": "##### Built for Beginners",
+        "rtb_title": "##### Built for Beginners, Designed for Employability",
         "rtbs": [
-          "- No programming background required",
-          "- No prior experience needed",
-	  "- Become Day 1 job-ready"
+          "- No coding or analytics background needed",
+          "- Designed based on analysis of JDs and Interviews",
+	  "- Spend 60% or more in hands-on"
         ]
       },
       {
-        "rtb_title": "##### Progressive Skill-Building",
+        "rtb_title": "##### Progressive: One task at a time",
         "rtbs": [
-          "- 100+ practice assignments",
+          "- Gradually do 100+ assignments",
           "- Progressively build unit-level skills",
-	  "- 84% sprint completion rate"
+	  "- Cement skill before moving forward"
         ]
       },
       {
         "rtb_title": "##### Project-based Learning",
         "rtbs": [
-          "- 6 Projects on data analysis and visualization",
-          "- Personalized feedback",
-	  "- Presented in viva voce format"
+          "- 5 competency focused projects",
+          "- Equips you with skills before capstone",
+	  "- 'Show and tell' capstone project"
         ]
       },
       {
         "rtb_title": "##### Generative AI Integration",
         "rtbs": [
+          "- Learn core skills + GenAI tools",
           "- Use GenAI tools for data analysis",
-          "- Leverage GenAI for smarter insights",
-	  "- Accelerate tasks with AI assistance"
+	  "- Improve productivity using GenAI"
         ]
       },
       {
         "rtb_title": "##### Mentorship & Support",
         "rtbs": [
-          "- Live mentor-led interactive sessions",
-          "- Hands-on practices",
-	  "- AI-driven feedback on assignments"
+          "- 2-hour live mentor-led online sessions",
+          "- Mentors who are invested in your success",
+	  "- 12+ years of industry experience"
         ]
       },
       {
         "rtb_title": "##### Professional skills",
         "rtbs": [
-          "- 50+ communication & presentation drills",
-          "- Team up on capstone project",
-	  "- Present to external stakeholders"
+          "- 50+ drills to practice professional skills",
+          "- Learn to work in small teams",
+	  "- AI-driven mock interview to practice"
         ]
       },
       {
         "rtb_title": "##### Portfolio Building",
         "rtbs": [
-          "- Digital portfolio building",
+          "- Build portfolio as you learn",
           "- Showcase work via video-based profile",
 	  "- 3 Personalized Interview coaching sessions"
         ]
@@ -64,7 +64,7 @@
         "rtbs": [
           "- 97% placement rate",
           "- AI-driven mock interviews",
-	  "- 400% return on investment"
+	  "- Recent 400 placed got 400% RoI"
         ]
       }
     ],
@@ -93,7 +93,7 @@
           "image_url": "assets/images/da/mysql.png",
           "header": "DA using SQL",
           "track": "Data Analytics",
-          "project_title": "Analyse medical data for Smarter Healthcare Decisions (MedTech)",
+          "project_title": "Analyse Medical Data for Smarter Healthcare Decisions (MedTech)",
           "brief_description": "Analyze hospital data with SQL for better decision-making.",
           "detailed_description": "Develop a relational database for hospital operations to manage patient records, appointments, staff details, and treatments. Use SQL queries and stored procedures to efficiently retrieve and analyze medical data.",
           "technologies_used": [
@@ -128,8 +128,8 @@
           "image_url": "assets/images/da/python_eda.png",
           "header": "EDA using Python",
           "track": "Data Analytics",
-          "project_title": "Perform EDA on Consumer data for an E-commerce Platform (CommerceTech)",
-          "brief_description": "Explore consumer data for strategic insights with EDA",
+          "project_title": "Perform EDA on Consumer Data for an E-commerce Platform (CommerceTech)",
+          "brief_description": "Explore and visualize to uncover patterns that drive better business decisions",
           "detailed_description": "Analyze e-commerce transaction data to identify patterns in user behavior, popular product categories, and conversion trends. Use Python and visualization tools to derive insights that support marketing strategies.",
           "technologies_used": [
             "Python",
@@ -145,8 +145,8 @@
           "image_url": "assets/images/da/power_bi.png",
           "header": "EDA using Power BI",
           "track": "Data Analytics",
-          "project_title": "Extract and Visualize Insights from Sports Data for Team Analyst (SportsTech)",
-          "brief_description": "Track sports trends with interactive dashboards.",
+          "project_title": "Extract and Visualize Insights from Sports Data for the Business (SportsTech)",
+          "brief_description": "Build Power BI dasboards to track sports performance trends and players' statistics.",
           "detailed_description": "Build interactive Power BI dashboards that visualize key sales and revenue metrics. Use Power Query and DAX to clean, transform, and model data for actionable business intelligence.",
           "technologies_used": [
             "Power BI",
@@ -163,8 +163,8 @@
           "image_url": "assets/images/da/capstone.png",
           "header": "Capstone Project",
           "track": "Data Analytics",
-          "project_title": "Build dashboard to view performance at-a-glance on logistics (LogiTech)",
-          "brief_description": "Improve delivery efficiency through data analysis.",
+          "project_title": "Build Dashboard to View Performance at-a-Glance (LogiTech)",
+          "brief_description": "Combining all skills perform EDA, build dashboard, and recommend insights to improve delivery efficiency.",
           "detailed_description": "Develop a complete analytics solution that combines data collection, cleaning, analysis, and machine learning to forecast product demand. Use Python, SQL, Power BI, and Excel for an integrated approach to business intelligence and predictive modeling.",
           "technologies_used": [
             "Python",
@@ -246,7 +246,7 @@
       "projects": [
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "DA using Excel",
           "track": "Data Science",
           "project_title": "Social Media Trends Discovering Stories Behind the Data",
@@ -263,7 +263,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "DA using SQL",
           "track": "Data Science",
           "project_title": "Managing and Analyzing Patient Data with SQL",
@@ -280,7 +280,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "Python Programming",
           "track": "Data Science",
           "project_title": "Building a Finance Tracker Console App in Python",
@@ -298,7 +298,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "EDA using Python",
           "track": "Data Science",
           "project_title": "E-commerce Shopper Behavior Analysis using Python",
@@ -315,7 +315,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "EDA using Power BI",
           "track": "Data Science",
           "project_title": "Sales and Revenue Insights for Business Stakeholders",
@@ -333,7 +333,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "Statistics and Machine Learning",
           "track": "Data Science",
           "project_title": "Banking Customer Churn Analytics for Marketing Teams",
@@ -350,7 +350,7 @@
         },
         {
           "type": "Capstone Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "DS Capstone Project",
           "track": "Data Science",
           "project_title": "Delivery Performance Analysis for Logistics Managers",
@@ -369,7 +369,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "Advanced ML",
           "track": "Data Science",
           "project_title": "Retail Sales Prediction for Marketing and Supply Chain Teams",
@@ -386,7 +386,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "Time Series & NLP",
           "track": "Data Science",
           "project_title": "Social Media Sentiment and Trend Forecasting",
@@ -403,7 +403,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "Deep Learning & Computer Vision",
           "track": "Data Science",
           "project_title": "Medical Image Classification for Healthcare Diagnostics",
@@ -421,7 +421,7 @@
         },
         {
           "type": "Capstone Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel-social-media-trends.png",
           "header": "DS Capstone Project",
           "track": "Data Science",
           "project_title": "Smart City Traffic Analytics for Urban Planners",
