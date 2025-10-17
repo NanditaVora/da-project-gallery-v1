@@ -544,7 +544,7 @@ header .internal-note {
 
 /* Badge/Track */
 .project-badge {
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 0.5px;
     padding: 6px 10px;
     font-weight: 500;
@@ -563,6 +563,7 @@ header .internal-note {
     color: #0E3997 !important;
     margin:auto;
     line-height: 1.4;
+    text-align: center;
 }
 
 /* Tech pills */
@@ -573,8 +574,8 @@ header .internal-note {
     font-weight: 500;
     padding: 2px 6px;
     border-radius: 6px;
-    margin-top: 5px;
     margin: auto;
+    margin-top: 10px;
 }
 
 /* Action button */
