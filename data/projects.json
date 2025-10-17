@@ -74,7 +74,7 @@
         {
           "type": "Course End Project",
           "image_url": "assets/images/da/excel.png",
-          "header": "DA using Excel",
+          "header": "Analytics using Excel",
           "track": "Data Analytics",
           "project_title": "Analyze Social Media to Find Trends (MarTech)",
           "brief_description": "Use Excel to decode social media trends for virality.",
@@ -91,7 +91,7 @@
         {
           "type": "Course End Project",
           "image_url": "assets/images/da/mysql.png",
-          "header": "DA using SQL",
+          "header": "Analytics using SQL",
           "track": "Data Analytics",
           "project_title": "Analyse Medical Data for Smarter Healthcare Decisions (MedTech)",
           "brief_description": "Analyze hospital data with SQL for better decision-making.",
@@ -108,7 +108,7 @@
         {
           "type": "Course End Project",
           "image_url": "assets/images/da/python.png",
-          "header": "Python Programming",
+          "header": "Python for Analytics and Automation",
           "track": "Data Analytics",
           "project_title": "Console-Based Finance Tracker for Smarter Savings (FinTech)",
           "brief_description": "Use Python to build a finance app for smarter spending.",
