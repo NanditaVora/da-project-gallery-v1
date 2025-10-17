@@ -6,9 +6,17 @@
       {
         "rtb_title": "##### Built for Beginners, Designed for Employability",
         "rtbs": [
-          "- No coding or analytics background needed",
-          "- Designed based on analysis of JDs and Interviews",
-	  "- Spend 60% or more in hands-on"
+          "- No coding or analytics background needed.",
+          "- Designed from real JDs and Interviews.",
+	        "- Spend 60% or more doing hands-on"
+        ]
+      },
+      {
+        "rtb_title": "##### Mentor-Led: Experienced & Hands-on",
+        "rtbs": [
+          "- 2-hour live mentor-led online sessions",
+          "- Mentors who are invested in your success",
+          "- 12+ years of industry experience."
         ]
       },
       {
@@ -16,15 +24,31 @@
         "rtbs": [
           "- Gradually do 100+ assignments",
           "- Progressively build unit-level skills",
-	  "- Cement skill before moving forward"
+	        "- Cement skill before moving forward"
         ]
       },
       {
-        "rtb_title": "##### Project-based Learning",
+        "rtb_title": "##### Real Projects. Real Skills.",
         "rtbs": [
           "- 5 competency focused projects",
           "- Equips you with skills before capstone",
-	  "- 'Show and tell' capstone project"
+	        "- 'Show and tell' capstone project"
+        ]
+      },
+      {
+        "rtb_title": "##### Sharpen Professional skills",
+        "rtbs": [
+          "- 50+ drills to practice professional skills",
+          "- Learn to work in small teams",
+	        "- AI-driven mock interview to practice"
+        ]
+      },
+      {
+        "rtb_title": "##### Build Strong Personal Portfolio",
+        "rtbs": [
+          "- Build portfolio as you learn",
+          "- Showcase work via video-based profile",
+	        "- 3 Personalized Interview coaching sessions"
         ]
       },
       {
@@ -32,31 +56,7 @@
         "rtbs": [
           "- Learn core skills + GenAI tools",
           "- Use GenAI tools for data analysis",
-	  "- Improve productivity using GenAI"
-        ]
-      },
-      {
-        "rtb_title": "##### Mentorship & Support",
-        "rtbs": [
-          "- 2-hour live mentor-led online sessions",
-          "- Mentors who are invested in your success",
-	  "- 12+ years of industry experience"
-        ]
-      },
-      {
-        "rtb_title": "##### Professional skills",
-        "rtbs": [
-          "- 50+ drills to practice professional skills",
-          "- Learn to work in small teams",
-	  "- AI-driven mock interview to practice"
-        ]
-      },
-      {
-        "rtb_title": "##### Portfolio Building",
-        "rtbs": [
-          "- Build portfolio as you learn",
-          "- Showcase work via video-based profile",
-	  "- 3 Personalized Interview coaching sessions"
+	        "- Improve productivity using GenAI "
         ]
       },
       {
@@ -64,7 +64,7 @@
         "rtbs": [
           "- 97% placement rate",
           "- AI-driven mock interviews",
-	  "- Recent 400 placed got 400% RoI"
+	        "- Recent 400 placed got 400% RoI"
         ]
       }
     ],
