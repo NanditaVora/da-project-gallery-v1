@@ -260,6 +260,7 @@ body {
     #programName {
         font-size: 1.5rem;
         text-align: center;
+        padding-top: 60px; /* Add space for logo */
     }
 
     #programSummary {
@@ -272,10 +273,15 @@ body {
         height: 48px;
         margin-bottom: 0.5rem;
         padding: 6px; /* Adjust padding for smaller logo */
+        position: absolute;
+        top: 0.5rem;
+        left: 50%;
+        transform: translateX(-50%); /* Center the logo */
     }
 
     .d-flex {
         flex-direction: column;
+        padding-left: 0; /* Remove padding since logo is centered */
     }
 
     .me-3 {
