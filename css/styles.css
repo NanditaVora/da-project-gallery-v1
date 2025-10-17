@@ -433,7 +433,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 90px;
+    width: 80px;
     height: 3px;
     background-color: #FFCB05;
 }
@@ -534,9 +534,12 @@ header .internal-note {
 .project-img {
     margin: auto;
     width: 90%;
-    object-fit: cover;
+    object-fit: contain;
     height: 250px;
-    /* background-color: transparent; */
+    /* margin:auto; */
+    margin: 15px auto;
+    background-color: transparent;
+    /* border-radius: 50px; */
 }
 
 /* Badge/Track */

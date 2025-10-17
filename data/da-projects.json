@@ -6,65 +6,57 @@
       {
         "rtb_title": "##### Built for Beginners",
         "rtbs": [
-          "- No programming background required",
-          "- No prior experience needed",
-	  "- Become Day 1 job-ready"
+          "- 95% placement rate",
+          "- 400% return on investment"
         ]
       },
       {
-        "rtb_title": "##### Progressive Skill-Building",
+        "rtb_title": "##### Tools and Technologies",
         "rtbs": [
-          "- 100+ practice assignments",
-          "- Progressively build unit-level skills",
-	  "- 84% sprint completion rate"
+          "- Excel, SQL, Python, Power BI",
+          "- Data cleaning, exploration, visualization"
         ]
       },
       {
-        "rtb_title": "##### Project-based Learning",
+        "rtb_title": "##### Soft Skills",
         "rtbs": [
-          "- 6 Projects on data analysis and visualization",
-          "- Personalized feedback",
-	  "- Presented in viva voce format"
+          "- Effective communication",
+          "- Team collaboration"
         ]
       },
       {
-        "rtb_title": "##### Generative AI Integration",
+        "rtb_title": "##### Career Services",
         "rtbs": [
-          "- Use GenAI tools for data analysis",
-          "- Leverage GenAI for smarter insights",
-	  "- Accelerate tasks with AI assistance"
+          "- Resume building workshops",
+          "- Interview preparation sessions"
         ]
       },
       {
         "rtb_title": "##### Mentorship & Support",
         "rtbs": [
-          "- Live mentor-led interactive sessions",
-          "- Hands-on practices",
-	  "- AI-driven feedback on assignments"
+          "- Live mentorship sessions",
+          "- Peer support groups"
         ]
       },
       {
-        "rtb_title": "##### Professional skills",
+        "rtb_title": "##### Certification",
         "rtbs": [
-          "- 50+ communication & presentation drills",
-          "- Team up on capstone project",
-	  "- Present to external stakeholders"
+          "- SQL Certification",
+          "- Power BI certification"
         ]
       },
       {
-        "rtb_title": "##### Portfolio Building",
+        "rtb_title": "##### Generative AI Integration",
         "rtbs": [
-          "- Digital portfolio building",
-          "- Showcase work via video-based profile",
-	  "- 3 Personalized Interview coaching sessions"
+          "- Use AI tools for data analysis",
+          "- Implement AI-driven insights"
         ]
       },
       {
-        "rtb_title": "##### Placement Success",
+        "rtb_title": "##### Course End Projects",
         "rtbs": [
-          "- 97% placement rate",
-          "- AI-driven mock interviews",
-	  "- 400% return on investment"
+          "- Social Media Trends Analysis",
+          "- Build Finance Tracker Console App"
         ]
       }
     ],
@@ -76,8 +68,8 @@
           "image_url": "assets/images/da/excel.png",
           "header": "DA using Excel",
           "track": "Data Analytics",
-          "project_title": "Analyze Social Media to Find Trends (MarTech)",
-          "brief_description": "Use Excel to decode social media trends for virality.",
+          "project_title": "Social Media Trends Discovering Stories Behind the Data",
+          "brief_description": "Analyse social media data, tell visual stories, and capture insights.",
           "detailed_description": "Analyze and visualize social media engagement data to uncover trending topics, audience preferences, and sentiment insights. Present findings using dashboards and storytelling techniques that make data engaging and easy to interpret.",
           "technologies_used": [
             "Excel",
@@ -93,8 +85,8 @@
           "image_url": "assets/images/da/mysql.png",
           "header": "DA using SQL",
           "track": "Data Analytics",
-          "project_title": "Analyse medical data for Smarter Healthcare Decisions (MedTech)",
-          "brief_description": "Analyze hospital data with SQL for better decision-making.",
+          "project_title": "Managing and Analyzing Patient Data with SQL",
+          "brief_description": "Design, manage, and analyze patient data.",
           "detailed_description": "Develop a relational database for hospital operations to manage patient records, appointments, staff details, and treatments. Use SQL queries and stored procedures to efficiently retrieve and analyze medical data.",
           "technologies_used": [
             "MySQL",
@@ -110,14 +102,14 @@
           "image_url": "assets/images/da/python.png",
           "header": "Python Programming",
           "track": "Data Analytics",
-          "project_title": "Console-Based Finance Tracker for Smarter Savings (FinTech)",
-          "brief_description": "Use Python to build a finance app for smarter spending.",
+          "project_title": "Building a Finance Tracker Console App in Python",
+          "brief_description": "Build a smart finance tracker on daily expenses.",
           "detailed_description": "Develop a Python-based financial tracker that helps users record, categorize, and analyze expenses. Implement data structures and file handling to store and process financial data efficiently.",
           "technologies_used": [
             "Python",
             "File Handling",
-            "Functions",
-            "Loops",
+            "unctions",
+            "ata Structures",
             "OOPS"
           ],
           "genai_generated_image": "",
@@ -128,8 +120,8 @@
           "image_url": "assets/images/da/python_eda.png",
           "header": "EDA using Python",
           "track": "Data Analytics",
-          "project_title": "Perform EDA on Consumer data for an E-commerce Platform (CommerceTech)",
-          "brief_description": "Explore consumer data for strategic insights with EDA",
+          "project_title": "E-commerce Shopper Behavior Analysis using Python",
+          "brief_description": "Explore shopper patterns to uncover insights that drive sales.",
           "detailed_description": "Analyze e-commerce transaction data to identify patterns in user behavior, popular product categories, and conversion trends. Use Python and visualization tools to derive insights that support marketing strategies.",
           "technologies_used": [
             "Python",
@@ -145,8 +137,8 @@
           "image_url": "assets/images/da/power_bi.png",
           "header": "EDA using Power BI",
           "track": "Data Analytics",
-          "project_title": "Extract and Visualize Insights from Sports Data for Team Analyst (SportsTech)",
-          "brief_description": "Track sports trends with interactive dashboards.",
+          "project_title": "Sales and Revenue Insights for Business Stakeholders",
+          "brief_description": "Turn business data into powerful, insight-rich dashboards.",
           "detailed_description": "Build interactive Power BI dashboards that visualize key sales and revenue metrics. Use Power Query and DAX to clean, transform, and model data for actionable business intelligence.",
           "technologies_used": [
             "Power BI",
@@ -159,23 +151,40 @@
           "core_features": "Integrate data from multiple business sources,Model relationships between datasets,Create KPIs and measures using DAX,Design interactive, visually appealing dashboards"
         },
         {
+          "type": "Course End Project",
+          "image_url": "assets/images/da/excel.png",
+          "header": "Statistics and Machine Learning",
+          "track": "Data Analytics",
+          "project_title": "Banking Customer Churn Analytics for Marketing Teams",
+          "brief_description": "Identify customers at risk of leaving and boost retention.",
+          "detailed_description": "Analyze customer behavior data to predict churn using statistical and machine learning techniques. Apply hypothesis testing and inferential statistics to validate patterns and suggest retention strategies.",
+          "technologies_used": [
+            "Python",
+            "Inferential Statistics",
+            "Hypothesis Testing",
+            "Machine Learning"
+          ],
+          "genai_generated_image": "",
+          "core_features": "Preprocess customer and transaction data,Perform statistical tests and correlation analysis,Build and evaluate churn prediction models,Recommend strategies to improve retention"
+        },
+        {
           "type": "Capstone Project",
           "image_url": "assets/images/da/capstone.png",
           "header": "Capstone Project",
           "track": "Data Analytics",
-          "project_title": "Build dashboard to view performance at-a-glance on logistics (LogiTech)",
-          "brief_description": "Improve delivery efficiency through data analysis.",
+          "project_title": "Delivery Performance Analysis for Logistics Managers",
+          "brief_description": "Predict product demand to optimize stock and boost business efficiency.",
           "detailed_description": "Develop a complete analytics solution that combines data collection, cleaning, analysis, and machine learning to forecast product demand. Use Python, SQL, Power BI, and Excel for an integrated approach to business intelligence and predictive modeling.",
           "technologies_used": [
             "Python",
             "SQL",
             "Power BI",
             "Excel",
-            "Statistics",
+            "Machine Learning",
             "GenAI tools"
           ],
           "genai_generated_image": "",
-          "core_features": "Collect and integrate data from multiple business sources,Clean and preprocess sales and inventory data,Visualize predictions with Power BI dashboards,Use GenAI tools for report generation and insights"
+          "core_features": "Collect and integrate data from multiple business sources,Clean and preprocess sales and inventory data,Build machine learning models to forecast demand,Visualize predictions with Power BI dashboards,Use GenAI tools for report generation and insights"
         }
       ]
     }
@@ -246,7 +255,7 @@
       "projects": [
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "DA using Excel",
           "track": "Data Science",
           "project_title": "Social Media Trends Discovering Stories Behind the Data",
@@ -263,7 +272,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "DA using SQL",
           "track": "Data Science",
           "project_title": "Managing and Analyzing Patient Data with SQL",
@@ -280,7 +289,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "Python Programming",
           "track": "Data Science",
           "project_title": "Building a Finance Tracker Console App in Python",
@@ -298,7 +307,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "EDA using Python",
           "track": "Data Science",
           "project_title": "E-commerce Shopper Behavior Analysis using Python",
@@ -315,7 +324,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "EDA using Power BI",
           "track": "Data Science",
           "project_title": "Sales and Revenue Insights for Business Stakeholders",
@@ -333,7 +342,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "Statistics and Machine Learning",
           "track": "Data Science",
           "project_title": "Banking Customer Churn Analytics for Marketing Teams",
@@ -350,7 +359,7 @@
         },
         {
           "type": "Capstone Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "DS Capstone Project",
           "track": "Data Science",
           "project_title": "Delivery Performance Analysis for Logistics Managers",
@@ -369,7 +378,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "Advanced ML",
           "track": "Data Science",
           "project_title": "Retail Sales Prediction for Marketing and Supply Chain Teams",
@@ -386,7 +395,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "Time Series & NLP",
           "track": "Data Science",
           "project_title": "Social Media Sentiment and Trend Forecasting",
@@ -403,7 +412,7 @@
         },
         {
           "type": "Course End Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "Deep Learning & Computer Vision",
           "track": "Data Science",
           "project_title": "Medical Image Classification for Healthcare Diagnostics",
@@ -421,7 +430,7 @@
         },
         {
           "type": "Capstone Project",
-          "image_url": "",
+          "image_url": "assets/images/da/excel.png",
           "header": "DS Capstone Project",
           "track": "Data Science",
           "project_title": "Smart City Traffic Analytics for Urban Planners",
