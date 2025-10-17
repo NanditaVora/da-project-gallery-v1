@@ -418,6 +418,7 @@ body {
     transition: background 0.6s ease;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    border-top: 4px solid #0E3997;
 }
 
 .project-gallery h2 {
