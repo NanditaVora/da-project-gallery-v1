@@ -117,8 +117,9 @@ body {
     font-weight: 400;
     color: #0E3997; /* Primary Blue */
     color: #FFFFFF !important; /* White text with !important to override */
-    font-size: 1.1rem;
-    margin-bottom: 0; /* Remove bottom margin */
+    font-size: 1.2rem;
+    margin-bottom: 0px; /* Remove bottom margin */
+    margin-top: 10px;
 }
 
 
